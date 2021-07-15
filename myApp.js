@@ -60,7 +60,6 @@ const findOneByFood = (food, done) => {
     if (err) return console.error(err)
     done(null, data)
   })
-  done(null /*, data*/);
 };
 
 const findPersonById = (personId, done) => {
